@@ -23,7 +23,7 @@ One-time setup (about 10 minutes, free)
   4. Open the repository's Settings > Pages. Under "Build and deployment",
      choose "Deploy from a branch", pick "main" and "/ (root)", then Save.
   5. After a minute or two your app is at:
-        https://YOUR-USERNAME.github.io/overload/
+        https://Milchschnittli.github.io/overload/
   6. Open that address in Chrome on your Pixel. Tap "Install app" in the
      app (or Chrome menu > Add to home screen > Install).
   7. From now on, open Overload from your home screen. It works offline.
