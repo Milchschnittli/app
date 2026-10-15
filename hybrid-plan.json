@@ -1,0 +1,663 @@
+{
+ "app": "overload",
+ "kind": "routines",
+ "v": 1,
+ "name": "Hybrid 3-day plan",
+ "inc": {
+  "incline-bench-press-dumbbell": 2.5,
+  "hammer-curl-dumbbell": 2.5,
+  "farmers-walk": 5
+ },
+ "routines": [
+  {
+   "name": "Hybrid A",
+   "ex": [
+    {
+     "exId": "deadlift-barbell",
+     "lo": 5,
+     "hi": 7,
+     "rir": null,
+     "rest": 180,
+     "sets": [
+      {
+       "w": 97.5,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 100,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 102.5,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 105,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 105,
+       "r": 5,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "zercher-squat",
+     "lo": 6,
+     "hi": 8,
+     "rir": null,
+     "rest": 150,
+     "sets": [
+      {
+       "w": 52.5,
+       "r": 6,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 55,
+       "r": 6,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 57.5,
+       "r": 6,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 6,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "overhead-press-barbell",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 35,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 37.5,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 40,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 40,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "bent-over-row-barbell",
+     "lo": 6,
+     "hi": 8,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 45,
+       "r": 6,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 50,
+       "r": 6,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 55,
+       "r": 6,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 55,
+       "r": 6,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    },
+    {
+     "exId": "single-arm-lateral-raise-cable",
+     "lo": 12,
+     "hi": 15,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 12.5,
+       "r": 12,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 15,
+       "r": 12,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 17.5,
+       "r": 12,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    },
+    {
+     "exId": "bicep-curl-barbell",
+     "lo": 10,
+     "hi": 12,
+     "rir": null,
+     "rest": 90,
+     "sets": [
+      {
+       "w": 20,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 22.5,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 25,
+       "r": 10,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "farmers-walk",
+     "lo": null,
+     "hi": null,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 60,
+       "r": null,
+       "d": 40,
+       "t": null
+      },
+      {
+       "w": 65,
+       "r": null,
+       "d": 40,
+       "t": null
+      },
+      {
+       "w": 70,
+       "r": null,
+       "d": 40,
+       "t": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hybrid B",
+   "ex": [
+    {
+     "exId": "bench-press-barbell",
+     "lo": 5,
+     "hi": 7,
+     "rir": null,
+     "rest": 180,
+     "sets": [
+      {
+       "w": 55,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 57.5,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 62.5,
+       "r": 5,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "incline-bench-press-dumbbell",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 20,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 22.5,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 25,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "chest-dip-assisted",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 20,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 15,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 10,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "seated-cable-row-bar-grip",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 55,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 65,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    },
+    {
+     "exId": "lat-pulldown-close-grip-cable",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 55,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    },
+    {
+     "exId": "overhead-triceps-extension-cable",
+     "lo": 10,
+     "hi": 12,
+     "rir": null,
+     "rest": 90,
+     "sets": [
+      {
+       "w": 20,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 22.5,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 25,
+       "r": 10,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    },
+    {
+     "exId": "hammer-curl-dumbbell",
+     "lo": 10,
+     "hi": 12,
+     "rir": null,
+     "rest": 90,
+     "sets": [
+      {
+       "w": null,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": null,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": null,
+       "r": 10,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    }
+   ]
+  },
+  {
+   "name": "Hybrid C",
+   "ex": [
+    {
+     "exId": "zercher-squat",
+     "lo": 5,
+     "hi": 7,
+     "rir": null,
+     "rest": 180,
+     "sets": [
+      {
+       "w": 52.5,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 55,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 57.5,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 5,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 62.5,
+       "r": 5,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "romanian-deadlift-barbell",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 150,
+     "sets": [
+      {
+       "w": 60,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 65,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 70,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 75,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "t-bar-row",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 120,
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 55,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "reverse-grip-lat-pulldown-cable",
+     "lo": 8,
+     "hi": 10,
+     "rir": null,
+     "rest": 90,
+     "sets": [
+      {
+       "w": 50,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 55,
+       "r": 8,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 60,
+       "r": 8,
+       "d": null,
+       "t": null
+      }
+     ]
+    },
+    {
+     "exId": "face-pull-cable",
+     "lo": 15,
+     "hi": 20,
+     "rir": null,
+     "rest": 90,
+     "sets": [
+      {
+       "w": 25,
+       "r": 15,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 30,
+       "r": 15,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 30,
+       "r": 15,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    },
+    {
+     "exId": "single-arm-lateral-raise-cable",
+     "lo": 12,
+     "hi": 15,
+     "rir": null,
+     "rest": 90,
+     "sets": [
+      {
+       "w": null,
+       "r": 12,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": null,
+       "r": 12,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": null,
+       "r": 12,
+       "d": null,
+       "t": null
+      }
+     ],
+     "ss": "s000000"
+    },
+    {
+     "exId": "hammer-curl-dumbbell",
+     "lo": 10,
+     "hi": 12,
+     "rir": null,
+     "rest": 90,
+     "sets": [
+      {
+       "w": 17.5,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 20,
+       "r": 10,
+       "d": null,
+       "t": null
+      },
+      {
+       "w": 22.5,
+       "r": 10,
+       "d": null,
+       "t": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

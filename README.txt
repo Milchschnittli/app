@@ -7,10 +7,11 @@ What this is
   All your data stays on your phone. The app makes no network requests
   (its security policy blocks them), and there are no accounts or servers.
 
-Files (upload all 9 together, keep them in one folder)
+Files (upload these 9 together, in one folder)
   index.html, app.js, sw.js, manifest.webmanifest,
   icon-192.png, icon-512.png, icon-maskable-512.png,
   LICENSE-fonts.txt, README.txt
+  (hybrid-plan.json is not needed online; see below)
 
 One-time setup (about 10 minutes, free)
   Phones only install apps like this from an https address, so the files
@@ -23,7 +24,7 @@ One-time setup (about 10 minutes, free)
   4. Open the repository's Settings > Pages. Under "Build and deployment",
      choose "Deploy from a branch", pick "main" and "/ (root)", then Save.
   5. After a minute or two your app is at:
-        https://Milchschnittli.github.io/app/
+        https://YOUR-USERNAME.github.io/overload/
   6. Open that address in Chrome on your Pixel. Tap "Install app" in the
      app (or Chrome menu > Add to home screen > Install).
   7. From now on, open Overload from your home screen. It works offline.
@@ -46,3 +47,14 @@ Updating the app later
   Upload the changed files to the same repository and change the VERSION
   line at the top of sw.js. The app then shows "Restart to update".
   Your data is not touched by updates.
+
+Your Hybrid A/B/C plan
+  New installs start with it built in. If the app is already installed on
+  your phone, copy hybrid-plan.json to the phone and open Settings >
+  "Restore a backup or import Hevy CSV", then pick it. Routines with the
+  same names are updated in place and your history stays linked.
+
+Supersets
+  Linked exercises show a violet rail. Tick a set on the first one and the
+  app skips the rest timer and scrolls you to its partner; the timer starts
+  after the partner's set. Link or unlink exercises from the "..." menu.
